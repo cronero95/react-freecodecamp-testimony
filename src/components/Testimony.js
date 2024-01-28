@@ -1,3 +1,4 @@
+import '../style-sheets/Testimony.css'
 import React from 'react';
 
 function Testimony() {
@@ -9,7 +10,7 @@ function Testimony() {
         alt='A young woman with black hair, white skin, and blue eyes'
       />
       <div className='testimony-text-wrapper'>
-        <p className='tetimony-name'>
+        <p className='testimony-name'>
           Emma Bostian from Sweden
         </p>
         <p className='testimony-job'>
