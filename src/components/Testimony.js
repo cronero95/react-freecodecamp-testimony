@@ -1,7 +1,7 @@
 import '../style-sheets/Testimony.css'
 import React from 'react';
 
-function Testimony() {
+function Testimony(props) {
   return (
     <div className='testimony-wrapper'>
       <img 
@@ -11,13 +11,13 @@ function Testimony() {
       />
       <div className='testimony-text-wrapper'>
         <p className='testimony-name'>
-          Emma Bostian from Sweden
+          {props.name} from {props.country}
         </p>
         <p className='testimony-job'>
-          Software Engineer at Spotify
+          {props.job} at {props.company}
         </p>
         <p className='testimony-text'>
-          I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify.
+          "{props.testimony}"
         </p>
       </div>
     </div>
