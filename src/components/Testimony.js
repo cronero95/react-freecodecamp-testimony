@@ -11,10 +11,10 @@ function Testimony(props) {
       />
       <div className='testimony-text-wrapper'>
         <p className='testimony-name'>
-          {props.name} from {props.country}
+          <b>{props.name}</b> from {props.country}
         </p>
         <p className='testimony-job'>
-          {props.job} at {props.company}
+          {props.job} at <b>{props.company}</b>
         </p>
         <p className='testimony-text'>
           "{props.testimony}"
