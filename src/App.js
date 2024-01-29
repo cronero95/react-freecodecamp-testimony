@@ -9,6 +9,7 @@ function App() {
         Here is what our alumni say about freeCodeCamp:
         </h1>
         <Testimony
+          image = 'Emma'
           name = 'Emma Bostian'
           country = 'Sweden'
           job = 'Software Engineer'

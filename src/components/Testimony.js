@@ -6,7 +6,7 @@ function Testimony(props) {
     <div className='testimony-wrapper'>
       <img 
         className='testimony-image'
-        src={require('../images/Emma.png')}
+        src={require(`../images/${props.image}.png`)}
         alt='A young woman with black hair, white skin, and blue eyes'
       />
       <div className='testimony-text-wrapper'>
