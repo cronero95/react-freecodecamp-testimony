@@ -10,6 +10,7 @@ function App() {
         </h1>
         <Testimony
           image = 'Emma'
+          imageAlt = 'A young woman with black hair, white skin, and blue eyes'
           name = 'Emma Bostian'
           country = 'Sweden'
           job = 'Software Engineer'
@@ -18,6 +19,7 @@ function App() {
         />
         <Testimony
           image = 'Shawn'
+          imageAlt = 'A young man with black hair, white skin, and black eyes'
           name = 'Swawn Wang'
           country = 'Singapore'
           job = 'Software Engineer'
@@ -26,6 +28,7 @@ function App() {
         />
         <Testimony
           image = 'Sarah'
+          imageAlt = 'A young woman with brown hair, black skin, and black eyes'
           name = 'Sarah Chima'
           country = 'Nigeria'
           job = 'Software Engineer'

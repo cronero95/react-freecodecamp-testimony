@@ -7,7 +7,7 @@ function Testimony(props) {
       <img 
         className='testimony-image'
         src={require(`../images/${props.image}.png`)}
-        alt='A young woman with black hair, white skin, and blue eyes'
+        alt= {props.imageAlt}
       />
       <div className='testimony-text-wrapper'>
         <p className='testimony-name'>
